@@ -1,20 +1,92 @@
 [
   {
-    "name": "Organic Honey",
-    "description": "Pure, natural honey sourced locally.",
-    "price": "$15",
-    "image": "assets/honey.jpg"
+    "name": "Website Development",
+    "description": "Custom business websites with modern, responsive design.",
+    "price": "From Ksh 35,000",
+    "image": "assets/web-dev.jpg"
   },
   {
-    "name": "Herbal Tea",
-    "description": "Relaxing tea blend made with organic herbs.",
-    "price": "$10",
-    "image": "assets/tea.jpg"
+    "name": "E-commerce Store",
+    "description": "Online shops with secure payments and product management.",
+    "price": "From Ksh 50,000",
+    "image": "assets/ecommerce.jpg"
   },
   {
-    "name": "Handmade Soap",
-    "description": "Natural soap with aloe vera and essential oils.",
-    "price": "$8",
-    "image": "assets/soap.jpg"
+    "name": "Software Development",
+    "description": "Custom desktop and mobile applications tailored to your needs.",
+    "price": "From Ksh 80,000",
+    "image": "assets/software-dev.jpg"
+  },
+  {
+    "name": "Graphic Design",
+    "description": "Logos, business cards, posters, flyers, and branding kits.",
+    "price": "From Ksh 2,000",
+    "image": "assets/graphic-design.jpg"
+  },
+  {
+    "name": "Video Editing",
+    "description": "Professional editing for commercials, events, and social media.",
+    "price": "From Ksh 5,000",
+    "image": "assets/video-editing.jpg"
+  },
+  {
+    "name": "Photo Editing",
+    "description": "High-quality retouching and creative editing for personal or business use.",
+    "price": "From Ksh 1,500",
+    "image": "assets/photo-editing.jpg"
+  },
+  {
+    "name": "Printing Services",
+    "description": "Posters, brochures, flyers, and large-format printing.",
+    "price": "From Ksh 500",
+    "image": "assets/printing.jpg"
+  },
+  {
+    "name": "T-Shirt Printing",
+    "description": "Custom branded t-shirts for promotions, events, and uniforms.",
+    "price": "From Ksh 800",
+    "image": "assets/tshirt-printing.jpg"
+  },
+  {
+    "name": "Mug Printing",
+    "description": "Personalized mugs for gifts and branding.",
+    "price": "Ksh 600 each",
+    "image": "assets/mug-printing.jpg"
+  },
+  {
+    "name": "Banner & Signage",
+    "description": "Outdoor banners, pull-up banners, and office signage.",
+    "price": "From Ksh 2,500",
+    "image": "assets/banner.jpg"
+  },
+  {
+    "name": "Business Cards",
+    "description": "Premium cards with matte or glossy finish.",
+    "price": "Ksh 1,200 per 100 pcs",
+    "image": "assets/business-cards.jpg"
+  },
+  {
+    "name": "Social Media Management",
+    "description": "Content creation, scheduling, and analytics for business growth.",
+    "price": "From Ksh 15,000/month",
+    "image": "assets/social-media.jpg"
+  },
+  {
+    "name": "Laptop Bag",
+    "description": "Durable and stylish laptop bag with multiple compartments.",
+    "price": "Ksh 3,500",
+    "image": "assets/laptop-bag.jpg"
+  },
+  {
+    "name": "Wireless Mouse",
+    "description": "Ergonomic design with long battery life.",
+    "price": "Ksh 1,200",
+    "image": "assets/mouse.jpg"
+  },
+  {
+    "name": "Headphones",
+    "description": "Noise-cancelling over-ear headphones with high-quality sound.",
+    "price": "Ksh 2,800",
+    "image": "assets/headphones.jpg"
   }
 ]

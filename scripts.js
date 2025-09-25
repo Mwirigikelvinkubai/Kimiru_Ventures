@@ -5,7 +5,14 @@ fetch("products.json")
     const container = document.querySelector(".products");
 
     products.forEach(product => {
-      const card = document.createElement("div");
+      // WhatsApp link with pre-filled message + image link
+      const whatsappMessage = `I am interested in the ${product.name} priced at ${product.price}. Here’s the product: ${window.location.origin}/${product.image}`;
+      const whatsappLink = `https://wa.me/254733569297?text=${encodeURIComponent(whatsappMessage)}`;
+
+      // Wrap the whole card inside the <a>
+      const card = document.createElement("a");
+      card.href = whatsappLink;
+      card.target = "_blank";
       card.classList.add("product-card");
 
       card.innerHTML = `
@@ -13,7 +20,7 @@ fetch("products.json")
         <h3>${product.name}</h3>
         <p>${product.description}</p>
         <p><strong>${product.price}</strong></p>
-        <button class="buy-btn">Contact Us</button>
+        <div class="buy-btn">Contact Us</div>
       `;
 
       container.appendChild(card);

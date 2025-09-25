@@ -9,6 +9,7 @@ body {
   line-height: 1.6;
 }
 
+/* Header */
 header {
   background: #004466;
   color: #fff;
@@ -28,12 +29,14 @@ header nav a:hover {
   text-decoration: underline;
 }
 
+/* Hero */
 .hero {
   text-align: center;
   padding: 2rem;
   background: #f4f4f4;
 }
 
+/* Product Grid */
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -43,11 +46,15 @@ header nav a:hover {
 
 .product-card {
   background: #fff;
-  border: 1px solid #ddd;
-  padding: 1rem;
-  border-radius: 8px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  padding: 1.2rem;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
 }
 
 .product-card img {
@@ -55,31 +62,37 @@ header nav a:hover {
   max-height: 200px;
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .product-card h3 {
   margin: 10px 0 5px;
 }
 
+/* WhatsApp Buy Button */
 .buy-btn {
-  background: #004466;
+  display: inline-block;
+  margin-top: 0.8rem;
+  background: #25d366;
   color: white;
-  padding: 10px;
-  border: none;
+  padding: 0.6rem 1.2rem;
   border-radius: 5px;
-  margin-top: 10px;
-  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
 }
 
 .buy-btn:hover {
-  background: #006699;
+  background: #1ebe5d;
+  transform: scale(1.05);
 }
 
+/* Page Content */
 .page-content {
   padding: 2rem;
 }
 
+/* Testimonials */
 .testimonial-card {
   background: #f9f9f9;
   border-left: 4px solid #004466;
@@ -87,6 +100,7 @@ header nav a:hover {
   margin: 1rem 0;
 }
 
+/* Contact Form */
 form {
   display: flex;
   flex-direction: column;
@@ -104,6 +118,7 @@ button {
   background: #004466;
   color: #fff;
   cursor: pointer;
+  transition: background 0.3s;
 }
 
 button:hover {
@@ -118,22 +133,27 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  z-index: 1000;
 }
 
 .floating-contact a {
   background: #004466;
   color: #fff;
-  padding: 10px;
+  padding: 12px;
   border-radius: 50%;
   text-align: center;
   font-size: 20px;
   text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background 0.3s, transform 0.2s;
 }
 
 .floating-contact a:hover {
   background: #006699;
+  transform: scale(1.1);
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
