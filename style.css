@@ -140,3 +140,62 @@ footer {
   background: #222;
   color: #fff;
 }
+
+/* About Page Hero */
+.about-hero {
+  background: linear-gradient(rgba(0,70,102,0.8), rgba(0,70,102,0.8)), url("assets/team.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* Mission & Vision Cards */
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  flex: 1 1 300px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Values Section */
+.values {
+  background: #f4f4f4;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.value-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: background 0.3s, transform 0.3s;
+}
+
+.value-card:hover {
+  background: #e6f4f8;
+  transform: translateY(-5px);
+}
