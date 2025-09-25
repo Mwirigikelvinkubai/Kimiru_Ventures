@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Organic Honey",
+    "description": "Pure, natural honey sourced locally.",
+    "price": "$15",
+    "image": "assets/honey.jpg"
+  },
+  {
+    "name": "Herbal Tea",
+    "description": "Relaxing tea blend made with organic herbs.",
+    "price": "$10",
+    "image": "assets/tea.jpg"
+  },
+  {
+    "name": "Handmade Soap",
+    "description": "Natural soap with aloe vera and essential oils.",
+    "price": "$8",
+    "image": "assets/soap.jpg"
+  }
+]
